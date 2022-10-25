@@ -13,6 +13,131 @@
   }
 }
 
+body{
+  background-color: #010f31 !important;
+  color: #00CBFF !important;
+}
+
+.iam-pedro{
+  height: fit-content;
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.418);
+  border-radius: 40px;
+  position: relative;
+  right: -130px;
+  opacity: 0%;
+  animation: iam-pedro 0.8s forwards;
+}
+
+@keyframes iam-pedro {
+  from{
+    right: -130px;
+    opacity: 0%;
+  }
+  to{
+    right: 70px;
+    opacity: 100%;
+  }
+}
+
+.my-skills{
+  width: 40%;
+  height: fit-content;
+  padding: 20px;
+  background-color: rgba(0, 247, 255, 0.548);
+  color: rgba(0, 0, 0, 0.767);
+  border-radius: 40px;
+  position: relative;
+  left: 50%;
+  top: 70px;
+  opacity: 0%;
+  animation: my-skills 1s forwards;
+}
+
+@keyframes my-skills {
+  from{
+    top: 70px;
+    opacity: 0%;
+  }
+  to{
+    top: -100px;
+    opacity: 100%;
+  }
+}
+
+.typo{
+  color: #5bdeff !important;
+  text-align: start !important;
+}
+
+.toggle{
+  background-color: #00CBFF !important;
+}
+
+
+.link1{
+  position: relative;
+  bottom: 40px;
+  opacity: 0%;
+  animation: link1 0.8s forwards;
+}
+.link2{
+  position: relative;
+  bottom: 40px;
+  opacity: 0%;
+  animation: link1 0.8s 0.1s forwards;
+}
+.link3{
+  position: relative;
+  bottom: 40px;
+  opacity: 0%;
+  animation: link1 0.8s 0.2s forwards;
+}
+.link4{
+  position: relative;
+  bottom: 40px;
+  opacity: 0%;
+  animation: link1 0.8s 0.3s forwards;
+}
+
+@keyframes link1 {
+  from{
+    opacity: 0%;
+    bottom: 40px;
+  }
+  to{
+    opacity: 100%;
+    bottom: 0px;
+  }
+}
+
+.basic-navbar-nav{
+  width: fit-content !important;
+}
+
+.nav-contain{
+  padding: 10px;
+}
+
+.nav-brand{
+  padding: 20px;
+  font-size: xx-large !important;
+  position: relative;
+  right: 225px;
+  animation: brand 1s forwards;
+}
+
+@keyframes brand {
+  from{
+    right: 225px;
+  }
+  to{
+    right: 0px;
+  }
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
