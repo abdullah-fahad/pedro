@@ -20,56 +20,109 @@ body{
 
 .iam-pedro{
   height: fit-content;
-  width: 50%;
+  width: 70%;
   padding: 20px;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.418);
   border-radius: 40px;
   position: relative;
-  right: -130px;
+  top: 100px;
   opacity: 0%;
-  animation: iam-pedro 0.8s forwards;
-}
-
-@keyframes iam-pedro {
-  from{
-    right: -130px;
-    opacity: 0%;
-  }
-  to{
-    right: 70px;
-    opacity: 100%;
-  }
+  animation: iam-pedro 1.5s 0.3s forwards;
 }
 
 .my-skills{
-  width: 40%;
+  width: 70%;
   height: fit-content;
-  padding: 20px;
-  background-color: rgba(0, 247, 255, 0.548);
-  color: rgba(0, 0, 0, 0.767);
+  margin: auto;
+  padding: 10px;
   border-radius: 40px;
-  position: relative;
-  left: 50%;
-  top: 70px;
+  color: #00CBFF;
+  overflow: hidden;
   opacity: 0%;
-  animation: my-skills 1s forwards;
+  animation: my-skills 1s 1s forwards;
 }
 
 @keyframes my-skills {
   from{
-    top: 70px;
     opacity: 0%;
   }
   to{
-    top: -100px;
     opacity: 100%;
   }
+}
+
+@media screen and (max-width: 800px) {
+  .iam-pedro, .my-skills{
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .iam-pedro, .my-skills{
+    width: 390px;
+  }
+}
+
+@keyframes iam-pedro {
+  from{
+    top: 100px;
+    opacity: 0%;
+  }
+  to{
+    top: 0px;
+    opacity: 100%;
+  }
+}
+
+.list{
+  height: 40px;
+  overflow: hidden;
+  animation: list 1s 1.3s forwards;
+}
+
+.list ul{
+  text-align: left;
+  height: 90%;
+  overflow-y: scroll;
+}
+
+.list ul li{
+  margin-bottom: 5px;
+}
+
+.list-img{
+  width: 50px;
+  height: auto;
+  position: relative;
+  bottom: 10px;
+  border-radius: 10px;
+}
+
+@keyframes list {
+  from{height: 40px;} to {height: 300px;}
+}
+
+::-webkit-scrollbar {
+  width: 2px;               /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.767)orange;        /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: blue;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgba(0, 0, 0, 0.767);  /* creates padding around scroll thumb */
 }
 
 .typo{
   color: #5bdeff !important;
   text-align: start !important;
+}
+
+.dark-text{
+  color: rgba(0, 0, 0, 0.767) !important;
 }
 
 .toggle{

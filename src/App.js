@@ -22,11 +22,24 @@ function App() {
       <div className='iam-pedro'>
         <h2 className='typo'>Heloo world!</h2>
         <p className='typo'>
-          <strong>My name is Pedro, </strong> a full-stack web developer who has <br /> proven experience for 4+ years,
+          <strong>My name is Pedro, </strong> I offer high-quality perfect-priced website creation, and with over 5 years of experience in full-stack web development, I can make you the most stunning website you would ever have at the same price, using ReactJs for the frontend, NodeJs and ExpressJs for the backend, MongoDB for the database, Material-UI and bootstrap for the styling, and lastly a sense of creativity I will bring your ideas into reality.
+I promise you'll never regret buying my services.
         </p>
       </div>
       <div className='my-skills'>
-        <h2>My skills:</h2>
+        <div className='list'>
+          <h2>What I'm good at?</h2>
+          <ul>
+            <strong>for frontend:</strong>
+            <li className='d-flex'><p className='flex-grow-1'>Assembling the frontend with <strong>ReactJs</strong></p><img className='list-img' alt="react" src='https://tse1.mm.bing.net/th?id=OIP.lvR5nni7xdPCxU-tC6tzzgHaHa&pid=Api&P=0' /></li>
+            <li className='d-flex'><p className='flex-grow-1'>Styling with <strong>css</strong> and <strong>bootstrap</strong></p><img className='list-img' alt="react" src='https://tse3.mm.bing.net/th?id=OIP.BLrezSeZuna1mdA4UzyjLwHaGO&pid=Api&P=0' /></li>
+            <li className='d-flex'><p className='flex-grow-1'>Customization with <strong>Material-ui</strong> components</p><img className='list-img' alt="react" src='https://tse4.mm.bing.net/th?id=OIP.0rHhkJGjUw37i-wGtakm3AHaHa&pid=Api&P=0' /></li>
+            <strong>for frontend:</strong>
+            <li className='d-flex'><p className='flex-grow-1'>Assembling the frontend with <strong>ReactJs</strong></p><img className='list-img' alt="react" src='https://tse1.mm.bing.net/th?id=OIP.lvR5nni7xdPCxU-tC6tzzgHaHa&pid=Api&P=0' /></li>
+            <li className='d-flex'><p className='flex-grow-1'>Styling with <strong>css</strong> and <strong>bootstrap</strong></p><img className='list-img' alt="react" src='https://tse3.mm.bing.net/th?id=OIP.BLrezSeZuna1mdA4UzyjLwHaGO&pid=Api&P=0' /></li>
+            <li className='d-flex'><p className='flex-grow-1'>Customization with <strong>Material-ui</strong> components</p><img className='list-img' alt="react" src='https://tse4.mm.bing.net/th?id=OIP.0rHhkJGjUw37i-wGtakm3AHaHa&pid=Api&P=0' /></li>
+          </ul>
+        </div>
       </div>
     </div>
   );
